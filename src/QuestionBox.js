@@ -10,7 +10,7 @@ const QuestionBox = () => {
 
   const getQuestion = async () => {
     const response = await fetch(
-      "http://shjeon-qna.herokuapp.com/question/random"
+      "https://shjeon-qna.herokuapp.com/question/random"
     );
     // console.log(response);
     // const jsonData = JSON.stringify(response);

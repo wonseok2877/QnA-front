@@ -32,7 +32,7 @@ const AnswerBox = () => {
   // console.log(answer);
 
    const handleClick=async()=>{
-    const response = await fetch(`http://shjeon-qna.herokuapp.com/question/all-answer/${globalName}`);
+    const response = await fetch(`https://shjeon-qna.herokuapp.com/question/all-answer/${globalName}`);
 
     const jsonData = await response.json();
     console.log(jsonData);
